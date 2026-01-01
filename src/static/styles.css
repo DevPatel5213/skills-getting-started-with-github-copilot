@@ -87,12 +87,17 @@ section h3 {
 }
 
 .participants-list {
+  list-style-type: none;
+  padding: 0;
+
   list-style-type: disc;
   padding-left: 25px;
   margin: 0;
 }
 
 .participants-list li {
+  margin: 0;
+
   margin-bottom: 5px;
   color: #555;
   line-height: 1.4;
